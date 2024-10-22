@@ -12,6 +12,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
+    namespace "com.rusel.RCTBluetoothSerial"
     compileSdkVersion safeExtGet("compileSdkVersion", 29)
 
     defaultConfig {
